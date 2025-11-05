@@ -13,7 +13,7 @@ By default, this permission is granted to members of the following **local group
 * **`Administrators`**
 * **`ADSyncAdmins`**
 
-### 💡 A Note on Misconfigurations
+### A Note on Misconfigurations:
 
 In some environments, these permissions may be incorrectly assigned. For example, if the `Authenticated Users` group was given read access to the database or decryption keys, this script could be run by *any* domain user, which is a critical vulnerability.
 
